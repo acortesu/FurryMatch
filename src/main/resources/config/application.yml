@@ -64,6 +64,7 @@ management:
       enabled: true
   health:
     mail:
+      from: fuurrymatch@gmail.com
       enabled: false # When using the MailService, configure an SMTP server and set this to true
   metrics:
     export:
